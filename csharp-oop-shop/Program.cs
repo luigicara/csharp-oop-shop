@@ -14,6 +14,7 @@ internal class Program
 
         for (int i = 0; i < products.Length; i++)
         {
+            Console.WriteLine($"{i + 1}° prodotto");
             products[i].PrintInfo();
         }
 
